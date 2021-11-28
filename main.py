@@ -25,6 +25,7 @@ body = """
 </head>
 <body>
 <h1>VeRyEngine Docs - Table of Contents</h1>
+<p>The GitHub project is <a href="https://github.com/Bill0412/veryengine-doc-toc-generator">here</a>.</p>
 <ul>
 {}
 </ul>
