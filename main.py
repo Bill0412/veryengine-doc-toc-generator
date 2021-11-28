@@ -3,6 +3,7 @@ from selenium.webdriver.chrome.options import Options
 
 # max page id to crawl
 maxPages = 500
+htmlFilename = "index.html"
 
 CHROMEDRIVER_PATH = 'driver/chromedriver'
 
@@ -54,7 +55,7 @@ for i in range(maxPages):
     print("<{}>. {}".format(i, title))
 
 
-with open("contents.html", 'w') as out:
+with open(htmlFilename, 'w') as out:
     out.write(body.format(ul))
 
 driver.close()
